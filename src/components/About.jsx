@@ -47,7 +47,7 @@ const About = () => {
       max-w-3xl leading-[30px]"
       >
         Hi, I have 2+ years of experience in web development in my current
-        organisation, which includes technologies like Java, Spring Boot,GRPC ,
+        organisation, which includes technologies like Java, Spring Boot, GRPC,
         JSP, JUnit, SQL, HTML, CSS, Spring, Hibernate, and the REST API. I am
         currently working with technologies and tools like Eclipse, git, maven,
         and CI/CD, and apart from that, I have some exposure to react js.
