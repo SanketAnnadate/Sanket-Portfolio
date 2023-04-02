@@ -15,10 +15,7 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    BBI,
     carrent,
     jobit,
     tripguide,
@@ -116,55 +113,16 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Software Engineer",
+      company_name: "Blackbuck Insights PVT. LTD.",
+      icon: BBI,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "March 2021 - Current",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Actively involved in Architecture, Analysis Design, Development, Debugging, Testing, and Deployment",
+        "Extensively applied Object-Oriented Analysis and Design concepts, and used design patterns like Singleton, Factory Method, Dependency Injection, and Facade architecture framework.",
+        "Revised, modularized, and updated old code bases to modern development standards, reducing operating costs and improving functionality.",
+        "Project handling, troubleshooting, development and deployment of project on AWS and On-prem.",
       ],
     },
   ];
@@ -173,45 +131,30 @@ import {
     {
       testimonial:
         "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      name: "Manikandan Nagarajan",
+      designation: "Technical lead",
+      company: "TransUnion",
+      image: "https://media.licdn.com/dms/image/C4E03AQGaXBPm3PF--Q/profile-displayphoto-shrink_800_800/0/1636123046986?e=1686182400&v=beta&t=PYc7tMLK7eF0l9c1tueTE5AjwyW2BphJ5XqYITB9Wvk",
+      linkedIn:"https://www.linkedin.com/in/manikandannagarajan/",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Blogging Application",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to create and delete blogs. Users can also like and comment on blogs. The user has to sign up and login to use the application.",
       tags: [
         {
-          name: "react",
+          name: "reactjs",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "SpringBoot",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "MySQL",
           color: "pink-text-gradient",
         },
       ],
@@ -219,46 +162,25 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Online-Food-Application",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users to search for restaurants in the current city, add food to the cart from the menu, and place an order.",
       tags: [
         {
-          name: "react",
+          name: "Angular",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "SpringBoot",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "SQL",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/sanketdubhase86/Online-Food-Application",
     },
   ];
   
