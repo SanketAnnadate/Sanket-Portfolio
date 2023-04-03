@@ -10,15 +10,10 @@ import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
 import java from "./tech/java.svg";
 import grpc from "./tech/grpc.png";
 import postgreSQL from "./tech/postgreSQL.png";
 import springBoot from "./tech/springBoot.svg";
-import vite from "./tech/vite.png";
 import aws from "./tech/AWS.svg";
 import awsWhite from "./tech/AWSWhite.png";
 
@@ -39,16 +34,11 @@ export {
   git,
   html,
   javascript,
-  reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
+  reactjs,  
   java,
   springBoot,
   grpc,
   postgreSQL,
-  vite,
   aws,
   awsWhite,
 

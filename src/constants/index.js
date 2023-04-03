@@ -4,13 +4,9 @@ import {
     grpc,
     postgreSQL,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    vite,
-    redux,
-    tailwind,
     git,
     docker,
     aws,
@@ -18,7 +14,6 @@ import {
     BBI,
     carrent,
     jobit,
-    threejs,
     awsWhite,
   } from "../assets";
   
@@ -82,32 +77,12 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Vite",
-      icon: vite,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
       name: "PostgreSQL",
       icon: postgreSQL,
-    },
-    {
-      name: "threejs",
-      icon: threejs,
     },
     {
       name: "git",
