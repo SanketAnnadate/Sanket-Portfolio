@@ -1,4 +1,5 @@
 import logo_white_S from "./logo-white-S.png";
+
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -13,12 +14,13 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import java from "./tech/java.png";
+import java from "./tech/java.svg";
 import grpc from "./tech/grpc.png";
 import postgreSQL from "./tech/postgreSQL.png";
-import springBoot from "./tech/springBoot.png";
+import springBoot from "./tech/springBoot.svg";
 import vite from "./tech/vite.png";
-import aws from "./tech/AWS.png";
+import aws from "./tech/AWS.svg";
+import awsWhite from "./tech/AWSWhite.png";
 
 import BBI from "./company/BBI.png";
 
@@ -48,6 +50,7 @@ export {
   postgreSQL,
   vite,
   aws,
+  awsWhite,
 
   BBI,
   carrent,

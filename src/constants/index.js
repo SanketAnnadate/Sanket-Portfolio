@@ -19,6 +19,7 @@ import {
     carrent,
     jobit,
     threejs,
+    awsWhite,
   } from "../assets";
   
   export const navLinks = [
@@ -51,7 +52,7 @@ import {
     },
     {
       title: "AWS",
-      icon: aws,
+      icon: awsWhite,
     },
   ];
   
@@ -117,7 +118,7 @@ import {
       icon: docker,
     },
     {
-      name: "awas",
+      name: "aws",
       icon: aws,
     },
   ];
