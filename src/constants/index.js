@@ -1,24 +1,23 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
+    java,
+    springBoot,
+    grpc,
+    postgreSQL,
     javascript,
     typescript,
     html,
     css,
     reactjs,
+    vite,
     redux,
     tailwind,
-    nodejs,
-    mongodb,
     git,
-    figma,
     docker,
+    aws,
+
     BBI,
     carrent,
     jobit,
-    tripguide,
     threejs,
   } from "../assets";
   
@@ -40,23 +39,35 @@ import {
   const services = [
     {
       title: "Web Developer",
-      icon: web,
+      icon: reactjs,
     },
     {
       title: "Spring Boot Developer",
-      icon: mobile,
+      icon: springBoot,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
+      title: "PostgreSQL",
+      icon: postgreSQL,
     },
     {
       title: "AWS",
-      icon: creator,
+      icon: aws,
     },
   ];
   
   const technologies = [
+    {
+      name: "Java",
+      icon: java,
+    },
+    {
+      name: "Spring Boot",
+      icon: springBoot,
+    },
+    {
+      name: "GRPC",
+      icon: grpc,
+    },
     {
       name: "HTML 5",
       icon: html,
@@ -78,6 +89,10 @@ import {
       icon: reactjs,
     },
     {
+      name: "Vite",
+      icon: vite,
+    },
+    {
       name: "Redux Toolkit",
       icon: redux,
     },
@@ -86,15 +101,11 @@ import {
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "PostgreSQL",
+      icon: postgreSQL,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
+      name: "threejs",
       icon: threejs,
     },
     {
@@ -102,12 +113,12 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
       name: "docker",
       icon: docker,
+    },
+    {
+      name: "awas",
+      icon: aws,
     },
   ];
   
