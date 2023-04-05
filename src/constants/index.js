@@ -116,8 +116,7 @@ import {
   
   const testimonials = [
     {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      testimonial: "Sanket is very punctual with his commitments and always ready to go the extra mile to deliver better than expected.",
       name: "Manikandan Nagarajan",
       designation: "Technical lead",
       company: "TransUnion",
