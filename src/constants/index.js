@@ -119,7 +119,7 @@ import {
       testimonial: "Sanket is very punctual with his commitments and always ready to go the extra mile to deliver better than expected.",
       name: "Pratik Dhote",
       designation: "Software Engineer",
-      company: "Centre for the development of advanced computing",
+      company: " at the Centre for the Development of Advanced Computing",
       image: "https://media.licdn.com/dms/image/D5603AQHDPJiLozVZrA/profile-displayphoto-shrink_800_800/0/1670346858211?e=1686182400&v=beta&t=7k9VR6IVBtkOMoAjh-N0_y7vngLozNMJiaM_oguM2PE",
       linkedIn:"https://www.linkedin.com/in/pratik-dhote-175a79152/",
     },
